@@ -73,14 +73,7 @@ Though I have been learning Data Science, then why am I doing this project? Main
 - **Step 6:** To create a Demo of `frontend UI using Streamlit` and connect it with our FastAPI server using Python Requests module.
   ![Project Execution Steps](8.jpg)
 
-## <a name="a4">4. Code Walkthrough</a>
 
-Explore notebooks and source code of this project.
-
-- Notebook 1: [Prescription_parser](https://github.com/abhijeetk597/medical-data-extraction/blob/main/Notebooks/01_prescription_parser.ipynb)
-- Notebook 2: [Patient_details_parser](https://github.com/abhijeetk597/medical-data-extraction/blob/main/Notebooks/02_patient_details_parser.ipynb)
-- Backend: [Source code directory](https://github.com/abhijeetk597/medical-data-extraction/tree/main/backend/src)
-- Frontend: [Streamlit app](https://github.com/abhijeetk597/medical-data-extraction/blob/main/frontend/app.py)
 
 ## <a name="a5">5. What did I learn through this project?</a>
 
@@ -146,23 +139,3 @@ medical-data-extraction
         tesseract_papar_by_google.pdf
 ```
 
-## <a name="a8">8. If you are cloning this repository?</a>
-
-- Install all dependancies from `requirements.txt`
-- For `pdf2image` you need to [download `poppler`](https://github.com/belval/pdf2image?tab=readme-ov-file#how-to-install)
-- Install Tesseract OCR Engine in your PC
-  - [Tesseract installation instrution : Github](https://github.com/tesseract-ocr/tesseract#installing-tesseract)
-  - [Tesseract windows specific instructions: Github](https://github.com/UB-Mannheim/tesseract/wiki)
-- Set required PATHs as per your environment
-  > [Demo video to clone and run this project in your machine.](https://youtu.be/UWmOePHzePM)
-- Update: Now you will have to link you db for storing data. Python code updated accordingly, and script for creation of db table and SPs is uploaded in the repo.
-
-## <a name="a9">9. 🚀 Update 1: Store data into MySQL DB after verification in UI</a>
-
-- In the Streamlit UI I have kept a submit button but there was no any event listener for the button. Now I have integrated DB functionality and you can store the data on UI back into MySQL Database using Stored Procedures.
-- In the directory `mysql_scripts`, you can find queries used for creation of table and stored procedures. In the `backend\scr` directory a new module `db_utils` added, where you can find code for how you can connect your database with python. In the `main.py` 2 new POST methods created for updating the db tables.
-
-> In the UI, once you receive OCR output, you can modify it before saving to db.
-
-![Patients Table](13.png)
-![Prescriptions Table](14.png)
