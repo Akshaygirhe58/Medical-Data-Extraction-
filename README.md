@@ -5,21 +5,17 @@ Also this project involved creation of a backend server which will process data 
 
 ## Demo
 
-https://github.com/abhijeetk597/medical-data-extraction/assets/138308825/3d5d90e8-2858-4831-b1d5-97a3874f256c
 
-## [Click here to see project presentation](https://youtu.be/xh0livz2tSY)
 
-## Overview
-
-1. [What is OCR?](#a1)
-2. [Introduction to Project](#a2)
-3. [Project Execution Steps](#a3)
-4. [Code Walkthrough](#a4)
-5. [What did I learn through this project?](#a5)
-6. [Challenges Faced](#a6)
-7. [Directory Structure](#a7)
-8. [If you are cloning my repo?](#a8)
-9. [🚀 Update 1: Store data into MySQL DB after verification in UI](#a9)
+1. [What is OCR?]
+2. [Introduction to Project]
+3. [Project Execution Steps]
+4. [Code Walkthrough]
+5. [What did I learn through this project?]
+6. [Challenges Faced]
+7. [Directory Structure]
+8. [If you are cloning my repo?]
+   9.Store data into MySQL DB after verification in UI
 
 ## <a name="a1">1. What is OCR?</a>
 
